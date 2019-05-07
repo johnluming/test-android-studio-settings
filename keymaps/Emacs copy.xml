@@ -1,41 +1,87 @@
 <keymap version="1" name="Emacs copy" parent="Emacs">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="ctrl insert" />
-    <keyboard-shortcut first-keystroke="alt c" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="alt x" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
   </action>
   <action id="$Paste">
+    <keyboard-shortcut first-keystroke="alt p" />
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="$Undo">
-    <keyboard-shortcut first-keystroke="shift ctrl minus" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivatePythonConsoleToolWindow">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="ChangesView.GroupBy.Directory" />
+  <action id="CheckinProject" />
+  <action id="CloseAllEditorsButActive">
+    <mouse-shortcut keystroke="shift button2" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="k" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="CollapseSelection" />
+  <action id="Console.Execute.Multiline" />
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="CopyElement" />
+  <action id="CopyReference" />
+  <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Editor Cut">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="x" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="EditorCopy">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="ctrl alt x" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="EditorJoinLines" />
+  <action id="EditorKillRegion" />
+  <action id="EditorKillRingSave" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -43,5 +89,112 @@
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
+  <action id="EditorScrollToCenter" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+    <keyboard-shortcut first-keystroke="alt period" />
+  </action>
+  <action id="EditorToggleStickySelection">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="alt f3" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="period" />
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="PyRunFileInConsole">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="QuickDocCopy">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="QuickImplementations" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="ScrollTreeToCenter" />
+  <action id="UpdateRunningApplication" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push" />
+  <action id="ViewSource" />
+  <action id="XDebugger.CopyValue">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="com.jetbrains.python.console.RunPythonConsoleAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
 </keymap>
