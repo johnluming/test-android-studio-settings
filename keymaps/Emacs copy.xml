@@ -10,5 +10,6 @@
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="alt v" />
+    <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
 </keymap>
