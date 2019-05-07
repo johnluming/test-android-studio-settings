@@ -23,7 +23,7 @@
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Editor Cut">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="x" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
@@ -40,5 +40,8 @@
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="ActivatePythonConsoleToolWindow">
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
 </keymap>
