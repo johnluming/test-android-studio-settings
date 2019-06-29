@@ -149,7 +149,7 @@
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -202,6 +202,7 @@
   </action>
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceConstant" />
   <action id="KotlinShellExecute" />
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
@@ -259,7 +260,8 @@
   <action id="Vcs.Push" />
   <action id="ViewSource" />
   <action id="com.jetbrains.python.console.RunPythonConsoleAction">
-    <keyboard-shortcut first-keystroke="shift ctrl c" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt f9" />
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="hg4idea.QFold" />
 </keymap>
