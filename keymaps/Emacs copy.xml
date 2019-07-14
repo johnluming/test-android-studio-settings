@@ -50,6 +50,9 @@
   </action>
   <action id="CollapseSelection" />
   <action id="Console.Execute.Multiline" />
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="CopyElement" />
   <action id="CopyPaths" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
@@ -92,11 +95,6 @@
   </action>
   <action id="EditorJoinLines" />
   <action id="EditorKillRegion" />
-  <action id="EditorLeft">
-    <keyboard-shortcut first-keystroke="left" />
-    <keyboard-shortcut first-keystroke="ctrl b" />
-    <keyboard-shortcut first-keystroke="ctrl h" />
-  </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="ctrl o" />
@@ -132,7 +130,6 @@
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
-    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="EditorScrollDownAndMove">
     <keyboard-shortcut first-keystroke="ctrl k" />
