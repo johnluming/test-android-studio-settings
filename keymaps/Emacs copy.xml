@@ -7,7 +7,7 @@
   </action>
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="shift delete" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="shift insert" />
@@ -15,7 +15,6 @@
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="$SelectAll">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="$Undo">
@@ -24,13 +23,12 @@
   </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
+  <action id="CloseAllEditors" />
   <action id="CloseAllEditorsButActive">
     <mouse-shortcut keystroke="shift button2" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="k" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CollapseAll">
@@ -55,12 +53,18 @@
   </action>
   <action id="CopyElement" />
   <action id="CopyPaths" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Editor Cut">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
@@ -132,6 +136,7 @@
     <keyboard-shortcut first-keystroke="alt period" />
   </action>
   <action id="EditorSplitLine" />
+  <action id="EditorSwapSelectionBoundaries" />
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
@@ -181,8 +186,13 @@
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl f" />
     <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="GotoNextIncompletePropertyAction">
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="Groovy.Shell.Execute" />
   <action id="Hg.Commit.And.Push.Executor" />
@@ -191,6 +201,10 @@
   </action>
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="Images.Thumbnails.Hide">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
@@ -208,9 +222,10 @@
     <keyboard-shortcut first-keystroke="shift alt right" />
     <keyboard-shortcut first-keystroke="ctrl alt period" />
   </action>
+  <action id="NextProjectWindow" />
+  <action id="NextSplitter" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
   <action id="PreviousEditorTab">
@@ -219,7 +234,6 @@
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
   <action id="PyRunFileInConsole">
@@ -232,6 +246,7 @@
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="SaveAll" />
   <action id="ScrollTreeToCenter" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -244,10 +259,14 @@
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
   <action id="SelectNextOccurrence" />
+  <action id="SplitHorizontally" />
+  <action id="SplitVertically" />
   <action id="SurroundWithLiveTemplate" />
+  <action id="Switcher" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UnsplitAll" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
   <action id="ViewSource" />
