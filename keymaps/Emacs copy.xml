@@ -18,7 +18,6 @@
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="$Undo">
-    <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ChangesView.GroupBy.Directory" />
