@@ -22,6 +22,9 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="shift alt 9" />
+  </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
   <action id="CloseAllEditors" />
@@ -207,6 +210,10 @@
   </action>
   <action id="Groovy.Shell.Execute" />
   <action id="Hg.Commit.And.Push.Executor" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
