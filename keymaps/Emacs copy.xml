@@ -211,10 +211,6 @@
   </action>
   <action id="Groovy.Shell.Execute" />
   <action id="Hg.Commit.And.Push.Executor" />
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="shift ctrl f12" />
-    <keyboard-shortcut first-keystroke="ctrl alt m" />
-  </action>
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
